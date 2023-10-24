@@ -1,0 +1,53 @@
+section {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+  padding: 1rem;
+  background-color: #F5FFF2;
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  margin-bottom: 2.5rem;
+}
+
+a {
+  color: black;
+  font-weight: 400;
+  text-decoration: none;
+  margin-right: 1.5rem;
+}
+
+.faq {
+  text-decoration: underline;
+}
+
+header {
+  text-align: center;
+  color: #2D2F30;
+}
+
+h1 {
+  font-weight: 500;
+}
+
+main {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+mat-card {
+  background-color: #FCFCFC;
+  padding: 1rem;
+  margin-bottom: 1rem;
+  margin-right: 1rem;
+  width: 22rem;
+}
+
+mat-card-title {
+  margin-bottom: 1rem;
+  line-height: normal;
+}
